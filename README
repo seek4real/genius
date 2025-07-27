@@ -1,0 +1,20 @@
+# Genius 
+## An interpreter writting with GO 
+
+此项目是《用Go语言自制解释器》这本书的练手项目。
+最终的目标是用Go语言实现一个称作Monkey语言的解释器。
+
+-- *从零开始，自己写一门语言*
+
+Monkey的大致语法：
+``` 
+let a = 1  //绑定语法，可以进行类型推断
+let b = "hello world"  // string
+let f = a + b - 3  // 计算表达式
+```
+
+还支持 数组和哈希表
+```
+let c = [1, 2, 3]  // array
+let d = {"key":"value", "key2": "val3"}
+```
